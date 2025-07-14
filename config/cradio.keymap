@@ -76,7 +76,7 @@
             &kp TAB    &trans     &trans     &trans     &trans         &kp EQUAL  &kp N4     &kp N5     &kp N5     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ RESET    │          │          │          │          │   │  0       │  1       │  2       │  3       │          │
-           &sys_reset  &trans     &trans     &trans     &trans         &kp N0     &kp N1N1   &kp N2     &kp N3     &trans
+           &sys_reset  &trans     &trans     &trans     &trans         &kp N0     &kp N1     &kp N2     &kp N3     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &to 0      &trans         &trans     &to 1
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
