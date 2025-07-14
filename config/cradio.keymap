@@ -1,9 +1,11 @@
 // Copyright (c) 2022 The ZMK Contributors
 // SPDX-License-Identifier: MIT
 
+#include <locale/keys_sv.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/mouse.h>
 
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
@@ -11,22 +13,14 @@
 
 / {
     behaviors {
-        ht: hold_tap {
+        ht: tapdance {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
+            label = "TAPDANCE"
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <100>;
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
-        };
-    };
-
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
         };
     };
 
@@ -56,7 +50,7 @@
             &kp ESC    &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp BSLH   &to 3
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  TAB     │  =       │  !       │  -       │  "       │   │  /       │  {       │  }       │  |       │          │
-            &kp TAB    &kp EQUAL  &kp EXCL   &kp MINUS  &kp LS(2)      &kp FSLH   &kp LBRC   &kp RBRC   &kp PIPE  &lt 1 BSPC
+            &kp TAB    &kp EQUAL  &kp EXCL   &kp MINUS  &kp DQT        &kp SLASH  &kp LBRC   &kp RBRC   &kp PIPE  &lt 1 BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ~       │  7       │  8       │  '       │  0       │   │  [       │  (       │  )       │  ]       │          │
             &kp TILDE  &kp N7     &kp N8     &kp SQT    &kp N0         &kp LBKT   &kp LPAR   &kp RPAR   &kp RBKT   &kp ENTER
