@@ -56,10 +56,10 @@
             &kp ESC    &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp BSLH   &to 3
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  TAB     │  =       │  !       │  -       │  "       │   │  /       │  {       │  }       │  |       │          │
-            &kp TAB    &kp EQUAL  &kp EXCL   &kp MINUS  &kp LS(2)      &kp FSLH   &kp LBRC   &kp RBRC   &kp PIPE   &trans
+            &kp TAB    &kp EQUAL  &kp EXCL   &kp MINUS  &kp LS(2)      &kp FSLH   &kp LBRC   &kp RBRC   &kp PIPE  &lt 1 BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ~       │  7       │  8       │  '       │  0       │   │  [       │  (       │  )       │  ]       │          │
-            &kp TILDE  &kp N7     &kp N8     &kp SQT    &kp N0         &kp LBKT   &kp LPAR   &kp RPAR   &kp RBKT   &trans
+            &kp TILDE  &kp N7     &kp N8     &kp SQT    &kp N0         &kp LBKT   &kp LPAR   &kp RPAR   &kp RBKT   &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &to 0      &trans         &trans     &to 2
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -73,10 +73,10 @@
             &kp ESC    &trans     &trans     &trans     &trans         &kp PLUS   &kp N7     &kp N8     &kp N9     &kp MINUS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  TAB     │          │          │          │          │   │  =       │  4       │  5       │  6       │          │
-            &kp TAB    &trans     &trans     &trans     &trans         &kp EQUAL  &kp N4     &kp N5     &kp N5     &trans
+            &kp TAB    &trans     &trans     &trans     &trans         &kp EQUAL  &kp N4     &kp N5     &kp N6    &lt 1 BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ RESET    │          │          │          │          │   │  0       │  1       │  2       │  3       │          │
-           &sys_reset  &trans     &trans     &trans     &trans         &kp N0     &kp N1     &kp N2     &kp N3     &trans
+           &sys_reset  &trans     &trans     &trans     &trans         &kp N0     &kp N1     &kp N2     &kp N3     &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &to 0      &trans         &trans     &to 1
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
