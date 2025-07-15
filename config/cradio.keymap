@@ -53,7 +53,7 @@
             &kp TAB  &kp SV_EQUAL &kp SV_EXCL &kp SV_MINUS &kp SV_DQT &kp SV_FSLH &kp SV_LBRC &kp SV_RBRC &kp SV_PIPE &lt 1 BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ~       │  7       │  ?       │  +       │  '       │   │  [       │  (       │  )       │  ]       │          │
-           &kp SV_TILDE &trans  &kp SV_QMARK &kp SV_PLUS &kp SV_SQT   &kp SV_LBKT &kp SV_LPAR &kp SV_RPAR &kp SV_RBKT &kp ENTER
+           &kp SV_TILDE &trans  &kp SV_QMARK &kp SV_PLUS &kp SV_SQT  &kp SV_LBKT &kp SV_LPAR &kp SV_RPAR &kp SV_RBKT &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &to 0      &trans         &trans     &to 2
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -64,10 +64,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  ESC     │          │          │          │          │   │  +       │  7       │  8       │  9       │  -       │
-            &kp ESC    &trans     &trans     &trans     &trans         &kp PLUS   &kp N7     &kp N8     &kp N9     &kp MINUS
+            &kp ESC    &trans     &trans     &trans     &trans        &kp SV_PLUS &kp N7     &kp N8     &kp N9   &kp SV_MINUS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  TAB     │          │          │          │          │   │  =       │  4       │  5       │  6       │          │
-            &kp TAB    &trans     &trans     &trans     &trans         &kp EQUAL  &kp N4     &kp N5     &kp N6    &lt 1 BSPC
+            &kp TAB    &trans     &trans     &trans     &trans       &kp SV_EQUAL &kp N4     &kp N5     &kp N6    &lt 1 BSPC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ RESET    │          │          │          │          │   │  0       │  1       │  2       │  3       │          │
            &sys_reset  &trans     &trans     &trans     &trans         &kp N0     &kp N1     &kp N2     &kp N3     &kp ENTER
