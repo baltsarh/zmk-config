@@ -24,7 +24,7 @@
 
 &mmv_input_listener {
     set_mouse_fast {
-        layers = 3;
+        layers = <3>;
         input-processors = <&zip_xy_scaler 2 1>;
     };
 };
