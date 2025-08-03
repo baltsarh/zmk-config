@@ -24,22 +24,8 @@
 
 &mmv_input_listener {
     set_mouse_fast {
-        layers = <MOUSEFAST>;
+        layers = 3;
         input-processors = <&zip_xy_scaler 2 1>;
-    };
-};
-
-&mmv_input_listener {
-    set_mouse_slow {
-        layers = <MOUSESLOW>;
-        input-processors = <&zip_xy_scaler 1 2>;
-    };
-};
-
-&mmv_input_listener {
-    set_mouse_extra_slow {
-        layers = <MOUSEXSLOW>;
-        input-processors = <&zip_xy_scaler 1 4>;
     };
 };
 
