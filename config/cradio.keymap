@@ -40,7 +40,7 @@
             &mt ESC Q    &kp W          &kp E      &kp R             &kp T           &kp Y             &kp U      &kp I       &mt SV_A_RING O      &mt SV_A_UMLAUT P
         //├────────────┼──────────────┼──────────┼─────────────────┼───────────┤   ├──────────────────┼──────────┼───────────┼───────────────────┼────────────────────┤
         //│  A         │  S           │  D       │  F              │  G        │   │  H               │  J       │  K        │  L (Ö)            │                    │
-            &mt A TAB    &kp S          &kp D      &kp F             &kp G           &kp H             &kp J      &kp K       &mt SV_O_UMLAUT L      &kp BSPC
+            &mt TAB A    &kp S          &kp D      &kp F             &kp G           &kp H             &kp J      &kp K       &mt SV_O_UMLAUT L      &kp BSPC
         //├────────────┼──────────────┼──────────┼─────────────────┼───────────┤   ├──────────────────┼──────────┼───────────┼───────────────────┼────────────────────┤
         //│  Z         │  X           │  C       │  V              │  B        │   │  N               │  M       │  ,        │  .                │                    │
             &mt LWIN Z   &mt LSHIFT X   &kp C      &kp V             &kp B           &kp N             &kp M      &kp COMMA   &kp DOT                &kp ENTER
