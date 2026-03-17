@@ -19,7 +19,7 @@
             tapping-term-ms = <150>;
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
-        }:
+        };
         ll: long_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "LONG_LAYER";
